@@ -1,0 +1,21 @@
+<p class="text-info align-middle text-center">My order!</p>
+<table class="table table-striped">
+  <tr class="w3-red">
+      <th style="width:  15%">id</th>
+      <th style="width:  15%">type</th>
+      <th style="width:  15%">color</th>
+      <th style="width:  15%">size</th>
+      <th style="width:  15%">cost</th>
+      <th style="width:  15%">time</th>
+  </tr>
+  <tr *ngFor="let item of items; let i = index">
+      <td>{{item.itemList[0].id}}</td>
+      <td>{{item.itemList[0].type}}</td>
+      <td>{{item.itemList[0].color}}</td>
+      <td>{{item.itemList[0].size}}</td>
+      <td>{{item.itemList[0].cost}}</td>
+      <td>{{item.itemList[0].time}}</td>
+  </tr>
+</table>
+<input class="btn btn-outline-info" (click)="back()" type="button" value="Back to your order">
+

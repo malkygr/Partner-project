@@ -1,0 +1,32 @@
+<p class="text-info align-middle text-center">Wellcome to my store!</p>
+<form [formGroup]="itemForm">
+  <table class="table table-striped">
+    <tr class="w3-red">
+      <th style="width:  5%">choose</th>
+      <th style="width:  5%">#</th>
+      <th style="width:  5%">id</th>
+      <th style="width:  15%">type</th>
+      <th style="width:  15%">color</th>
+      <th style="width:  15%">size</th>
+      <th style="width:  15%">cost</th>
+      <th style="width:  15%">time</th>
+    </tr>
+    <tr *ngFor="let item of items; let i = index">
+      <td><input type="checkbox" (change)="change($event,item.id)" [checked]="check(item.id)"></td>
+      <td>{{i + 1}}</td>
+      <td> {{item.id}}</td>
+      <td>{{item.type}}
+        <!-- <div [ngStyle]="{'background-image': 'url( + icons[item.type] + )'}">
+        </div> -->
+      </td>
+      <td>
+        <div [ngStyle]="{'background': item.color}" class="display-color"></div>
+      </td>
+      <td>{{item.size}}</td>
+      <td>{{item.cost}}</td>
+      <td>{{item.time}}</td>
+    </tr>
+  </table>
+  <input class="btn btn-outline-info" (click)="submit()" type="submit">
+  <input class="btn btn-outline-info" type="reset">
+</form>

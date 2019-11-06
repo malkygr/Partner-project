@@ -1,0 +1,24 @@
+<p class="text-info align-middle text-center">Order</p>
+
+<table class="table table-striped">
+    <tr>
+        <th>Order number</th>
+        <th>Present off</th>
+        <th>Delivery time</th>
+        <th>Start date</th>
+        <th>End date</th>
+        <th>Manager</th>
+        <th>Status</th>
+        <th>Order detail</th>
+    </tr>
+    <tr *ngFor="let item of orderList; let i = index">
+        <td>{{item.orderNum}}</td>
+        <td>{{item.present}}%</td>
+        <td>{{item.time}}</td>
+        <td>{{item.startDate}}</td>
+        <td>{{item.endDate}}</td>
+        <td>{{item.manager}}</td>
+        <td>{{item.statusList[0].name}}</td>
+        <td><a [routerLink]="['/details']">order detail</a></td>
+    </tr>
+  </table>
