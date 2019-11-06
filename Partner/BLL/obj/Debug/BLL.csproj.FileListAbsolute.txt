@@ -1,0 +1,11 @@
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\bin\Debug\BLL.exe.config
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\bin\Debug\BLL.exe
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\bin\Debug\BLL.pdb
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\obj\Debug\BLL.exe
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\obj\Debug\BLL.pdb
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\bin\Debug\DAL.exe
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\bin\Debug\DAL.pdb
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\bin\Debug\DAL.exe.config
+C:\Users\greinemanm\Desktop\Partner-project\Partner\BLL\obj\Debug\BLL.csproj.CopyComplete
